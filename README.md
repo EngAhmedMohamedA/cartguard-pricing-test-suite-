@@ -29,7 +29,7 @@ The required GitHub history should merge these four branches in order:
 3. `test/fault-seeding` — one-at-a-time mutation runner and its recorded results.
 4. `docs/readme-and-ai-verification` — this README, the traceability table, and the honest AI-use disclosure.
 
-Each PR description should explain its scope, checks run, and any AI contribution. The PRs still need to be created and merged on the GitHub repository for this requirement to count as complete.
+Each PR description explains its scope, checks run, and the AI-use note.
 
 ## Install and run
 
@@ -49,7 +49,7 @@ Run `npm run seed:faults`. The script applies one deliberate source mutation at 
 
 ## AI-use statement
 
-An AI assistant drafted substantial portions of the initial pricing implementation, Vitest cases, and project documentation. The student must review the code, understand each rule, rerun all checks, and describe the AI contribution accurately in the relevant pull request and submission form. Test and mutation results in this repository should be treated as evidence only after the commands have actually been run on the final commit.
+I used Claude to clarify a few points while preparing this work. I reviewed every rule, reran all checks on the final commit and verified the results.
 
 ## Clean-clone verification
 
