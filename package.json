@@ -1,0 +1,17 @@
+{
+  "name": "cartguard-pricing-test-suite",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Nile Gadgets cart-pricing engine and Vitest component tests",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "seed:faults": "node scripts/seed-faults.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.0"
+  }
+}
